@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8" />
+	<title>formulari de login e registro com html5 e css3</title>
+	<style>
+	 body{
+	 	display: flex;
+	 	align-items: center;
+	 	justify-content: center;
+	 	min-height: 100vh;
+	 }
+	*, *:before, *:after {
+	 margin: 10;
+	 padding: 15;
+	 font-family: arial,sans-serif;
+
+	 }
+		a{
+			text-decoration: none;
+		}
+		a.links {
+			display: none;
+		}
+		
+		
+			
+	</style>
+
+<meta name="viewport" content="width= device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="aula-o4 anexo.css" />
+</head>
+<body>
+	<div class="container">
+		<a class="link" id="paracadastro"></a>
+		<a class="link" id="paralogin"></a>
+
+	<div class="content">
+		<!--formulario de login-->
+	<div id="login">
+	<form method="post" action="">
+	<h1>login</h1>
+	<p>
+		<label for="nome_login">Seu nome</label>
+		<input id="nome_login" name="nome_login" required="required" type="text"placeholder ="ensira seu name" />
+	</p>
+
+	<p>
+		<label for="email_login">Seu e-mail</label>
+		<input id="email_login" name="email_login" required="required" type="text" placeholder="ensira o seu email" />
+	</p>
+
+	<p>
+	<label for="senha_login">sua senha</label>
+	<input id="senha_login" name="senha_login" required="required" type="passwold" placeholder="senha">
+</p>
+
+
+	<p>
+		<input type="checkbox" name="manterlogado" id="manterlogado" value="">
+		<label for="manterlogado">manter-me logado</label>
+	</p>
+
+	<p>
+		<input type="submit" value="logar">
+	</p>
+
+	<p class="link">
+		ainda não tem conta ?
+		<a href="anexo da aula -04(cadastro).html">cadatre-se</a>
+	</p>
+	</form>
+	</div>	
+
+	</div>
+	</div>
+	</body>
+	</html>
